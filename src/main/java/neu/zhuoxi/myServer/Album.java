@@ -1,4 +1,4 @@
-package neu.zhuoxi.assignment00;
+package neu.zhuoxi.myServer;
 
 public class Album {
 

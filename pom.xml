@@ -39,6 +39,21 @@
       </dependency>
 
       <dependency>
+          <groupId>org.apache.httpcomponents</groupId>
+          <artifactId>httpclient</artifactId>
+          <version>4.5.13</version> <!-- 适用于你的项目的版本 -->
+      </dependency>
+
+          <!-- Apache HttpClient -->
+          <dependency>
+              <groupId>org.apache.httpcomponents</groupId>
+              <artifactId>httpclient</artifactId>
+              <version>4.5.13</version> <!-- 使用你需要的版本 -->
+          </dependency>
+
+
+
+      <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
       <version>${junit.version}</version>
