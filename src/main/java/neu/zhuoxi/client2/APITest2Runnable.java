@@ -35,8 +35,6 @@ public class APITest2Runnable implements Runnable {
                     }
                 }
 
-                // If either POST or GET request fails, you can handle it here
-                // Optionally, you can break out of the loop or take appropriate action
             }
         } catch (Exception e) {
             e.printStackTrace();

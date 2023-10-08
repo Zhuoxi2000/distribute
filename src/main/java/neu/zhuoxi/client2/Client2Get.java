@@ -19,7 +19,8 @@ public class Client2Get {
     }
 
     public static void main(String[] args) throws Exception {
-        // 创建ClientGet的实例
+
+        //test
         String serverURI = "http://localhost:8081/Assignment00/hello-servlet?albumID=123";
         Client2Get client = new Client2Get(serverURI);
 

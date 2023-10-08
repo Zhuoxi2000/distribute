@@ -10,7 +10,6 @@ public class Album {
     public Album() {
 
     }
-
     public Album(String artist,String title, String year){
         this.year = year;
         this.artist = artist;

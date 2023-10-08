@@ -92,12 +92,6 @@ public class APIClient2Runner implements Runnable {
         // Maximum response time (last value in the sorted list)
         double maxResponseTime = responseTimes[totalResponses - 1];
 
-        System.out.println("mean response time:" + meanResponseTime );
-        System.out.println("median response time:" + medianResponseTime);
-        System.out.println("p99 response time:" + percentile99ResponseTime);
-        System.out.println("min response time:" + minResponseTime);
-        System.out.println("max response time:" + maxResponseTime);
-
 
         long endTime = System.currentTimeMillis();
         long walltime = (endTime - startTime);
